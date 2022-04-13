@@ -6,7 +6,7 @@
 	<string>development</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.aswb.widgets</string>
+		<string>group.aswb.widget</string>
 	</array>
 </dict>
 </plist>
