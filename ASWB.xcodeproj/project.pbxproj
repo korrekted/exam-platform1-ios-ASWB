@@ -32,6 +32,7 @@
 		96BF328626B16B7F00AEF6D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96992217264AFF23008FFC69 /* Localizable.strings */; };
 		96BF328C26B16D9A00AEF6D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96BF328B26B16D9A00AEF6D3 /* GoogleService-Info.plist */; };
 		BB01CAE7ECD2E698F21E3ECC /* Pods_ASWB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF30F40BDCE8CB9775683952 /* Pods_ASWB.framework */; };
+		DE4FA12028D4BB3400085483 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE4FA11F28D4BB3400085483 /* Onboarding.Chart.json */; };
 		DE5043F32897FD32008A57D7 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE50422E2897FD32008A57D7 /* UIColorExtension.swift */; };
 		DE5043F42897FD32008A57D7 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE50422F2897FD32008A57D7 /* Collection+Extension.swift */; };
 		DE5043F52897FD32008A57D7 /* Observable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5042302897FD32008A57D7 /* Observable+Utils.swift */; };
@@ -334,7 +335,6 @@
 		DE50451E2897FD32008A57D7 /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5043D52897FD32008A57D7 /* OImproveCell.swift */; };
 		DE50451F2897FD32008A57D7 /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5043D72897FD32008A57D7 /* ReferencesTableCell.swift */; };
 		DE5045202897FD32008A57D7 /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5043D82897FD32008A57D7 /* ReferencesTableView.swift */; };
-		DE5045212897FD32008A57D7 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE5043DA2897FD32008A57D7 /* Onboarding.Chart.json */; };
 		DE5045222897FD32008A57D7 /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5043DB2897FD32008A57D7 /* OWhenStudyCell.swift */; };
 		DE5045232897FD32008A57D7 /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5043DD2897FD32008A57D7 /* WelcomeSlide1View.swift */; };
 		DE5045242897FD32008A57D7 /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5043DE2897FD32008A57D7 /* WelcomeSlideIndicatorView.swift */; };
@@ -422,6 +422,7 @@
 		96BF328526B1679200AEF6D3 /* ASWB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ASWB.entitlements; sourceTree = "<group>"; };
 		96BF328B26B16D9A00AEF6D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CF30F40BDCE8CB9775683952 /* Pods_ASWB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASWB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4FA11F28D4BB3400085483 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DE50422E2897FD32008A57D7 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DE50422F2897FD32008A57D7 /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		DE5042302897FD32008A57D7 /* Observable+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Utils.swift"; sourceTree = "<group>"; };
@@ -724,7 +725,6 @@
 		DE5043D52897FD32008A57D7 /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DE5043D72897FD32008A57D7 /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DE5043D82897FD32008A57D7 /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DE5043DA2897FD32008A57D7 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DE5043DB2897FD32008A57D7 /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DE5043DD2897FD32008A57D7 /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DE5043DE2897FD32008A57D7 /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -2273,7 +2273,7 @@
 		DE5043D92897FD32008A57D7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DE5043DA2897FD32008A57D7 /* Onboarding.Chart.json */,
+				DE4FA11F28D4BB3400085483 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2374,12 +2374,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE50453E2897FD7E008A57D7 /* SF-Pro-Rounded-Black.otf in Resources */,
-				DE5045212897FD32008A57D7 /* Onboarding.Chart.json in Resources */,
 				96BF328C26B16D9A00AEF6D3 /* GoogleService-Info.plist in Resources */,
 				96992218264AFF23008FFC69 /* Localizable.strings in Resources */,
 				96992214264AFF1F008FFC69 /* SF-Pro-Rounded-Regular.otf in Resources */,
 				96992213264AFF1F008FFC69 /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				9699221B264AFF2E008FFC69 /* LaunchScreen.storyboard in Resources */,
+				DE4FA12028D4BB3400085483 /* Onboarding.Chart.json in Resources */,
 				96992006264AFE67008FFC69 /* Assets.xcassets in Resources */,
 				96992215264AFF1F008FFC69 /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);
@@ -2967,7 +2967,7 @@
 				CODE_SIGN_ENTITLEMENTS = ASWB/ASWB.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/ASWB/Resource/Info.plist";
@@ -2976,7 +2976,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aswb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ASWB Prod";
@@ -2996,7 +2996,7 @@
 				CODE_SIGN_ENTITLEMENTS = ASWB/ASWB.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/ASWB/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -3004,7 +3004,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aswb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ASWB Prod";
@@ -3022,7 +3022,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3031,7 +3031,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aswb.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ASWB Widget Prod";
@@ -3049,7 +3049,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3058,7 +3058,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aswb.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ASWB Widget Prod";
